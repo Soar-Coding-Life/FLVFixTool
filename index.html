@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLVFixTool - The Ultimate FLV Repair Tool for macOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="container">
+        <nav>
+            <div class="logo">FLVFixTool</div>
+            <div class="controls">
+                <button id="language-toggle" class="control-button"></button>
+                <button id="theme-toggle" class="control-button"></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <h1 data-key="heroTitle">The Ultimate Tool for Repairing and Editing FLV Files.</h1>
+                <p data-key="heroSubtitle">Easily inspect, repair corrupted timestamps, and edit metadata of your Flash Video (FLV) files. A native macOS application built for speed and simplicity.</p>
+            </div>
+
+            <div class="hero-banner">
+                <div class="app-screenshot-placeholder">
+                    <div class="window-body">
+                        <div class="carousel" aria-roledescription="carousel">
+                            <div class="slides">
+                                <div class="slide"><img src="./1.png" alt="screenshot 1"></div>
+                                <div class="slide"><img src="./2.png" alt="screenshot 2"></div>
+                            </div>
+                            <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+                            <button class="carousel-btn next" aria-label="Next slide">›</button>
+                            <div class="carousel-dots" aria-hidden="true"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="./logo.png" alt="" width="200" height="200" srcset="">
+            </div>
+            <div class="hero-footer">
+                <a href="#" class="cta-button" data-key="downloadButton">Download for macOS</a>
+                <p class="subtle-note" data-key="downloadNote">Only supported on MacOS 14.0 Sonoma or later.</p>
+            </div>
+        </section>
+
+        <section class="features container">
+            <h2 data-key="featuresTitle">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3 data-key="feature1Title">Inspect & Analyze</h3>
+                    <p data-key="feature1Desc">Dive deep into the structure of your FLV files. View headers, metadata, and individual tags in a clear, organized table.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 data-key="feature2Title">Repair Corrupted Files</h3>
+                    <p data-key="feature2Desc">Automatically fix common FLV issues, such as incorrect durations and broken timestamps, making your files playable again.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 data-key="feature3Title">Edit Metadata</h3>
+                    <p data-key="feature3Desc">Modify the `onMetaData` script tag with ease. Change dimensions, frame rates, and other key properties, then save your changes to a new file.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-key="footerText">&copy; 2025 FLVFixTool. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
